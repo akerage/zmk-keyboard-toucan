@@ -35,7 +35,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp F  &kp P  &kp D  &kp L  &kp X  &kp SEMICOLON  &kp U  &kp O  &kp Y  &kp B  &kp Z  &kp ESC  &hm LEFT_META S  &hm LALT N  &hm LEFT_CONTROL T  &hm LEFT_SHIFT H  &kp K  &kp COMMA  &hm RIGHT_SHIFT A  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI C  &kp Q  &kp BACKSLASH  &kp V  &kp W  &kp G  &kp M  &kp J  &kp MINUS  &kp PERIOD  &kp SQT  &kp EQUAL  &kp FSLH  &kp RETURN  &lt 6 ESCAPE  &lt 4 SPACE  &kp TAB  &lt 2 BACKSPACE  &mo 3  &lt 1 DELETE
+&kp TAB  &kp F  &kp P  &kp D  &kp L  &kp X  &kp SEMICOLON  &kp U  &kp O  &kp Y  &kp B  &kp Z  &kp ESC  &hm LEFT_META S  &hm LALT N  &hm LEFT_CONTROL T  &hm LEFT_SHIFT H  &kp K  &kp COMMA  &hm RIGHT_SHIFT A  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI C  &kp Q  &kp BACKSLASH  &kp V  &kp W  &kp G  &kp M  &kp J  &kp MINUS  &kp PERIOD  &kp SQT  &kp EQUAL  &kp FSLH  &kp RETURN  &lt 6 ESCAPE  &lt 4 SPACE  &kp TAB  &lt 2 BACKSPACE  &lt 3 R  &lt 1 DELETE
             >;
         };
 
@@ -60,7 +60,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Z)  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(R)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp CAPSLOCK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &kp INSERT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Z)  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(R)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp CAPSLOCK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &kp INSERT  &trans  &trans  &trans  &trans  &mo 7  &trans  &trans
             >;
         };
 
@@ -80,7 +80,7 @@
         mod {
             display-name = "MOD";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 7  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
