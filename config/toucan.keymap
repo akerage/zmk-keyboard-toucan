@@ -35,7 +35,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp F  &kp P  &kp D  &kp L  &kp X  &kp SEMICOLON  &kp U  &kp O  &kp Y  &kp B  &kp Z  &kp ESC  &hm LEFT_META S  &hm LALT N  &hm LEFT_CONTROL T  &hm LEFT_SHIFT H  &kp K  &kp COMMA  &hm RIGHT_SHIFT A  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI C  &kp Q  &kp BACKSLASH  &kp V  &kp W  &kp G  &kp M  &kp J  &kp MINUS  &kp PERIOD  &kp SQT  &kp EQUAL  &kp FSLH  &kp RETURN  &lt 5 ESCAPE  &lt 4 SPACE  &kp TAB  &lt 2 BACKSPACE  &lt 3 R  &lt 1 DELETE
+&kp TAB  &kp F  &kp P  &kp D  &kp L  &kp X  &kp SEMICOLON  &kp U  &kp O  &kp Y  &kp B  &kp Z  &kp ESC  &hm LEFT_META S  &hm LALT N  &hm LEFT_CONTROL T  &hm LEFT_SHIFT H  &kp K  &kp COMMA  &hm RIGHT_SHIFT A  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI C  &kp Q  &lt 7 BACKSLASH  &kp V  &kp W  &kp G  &kp M  &kp J  &kp MINUS  &kp PERIOD  &kp SQT  &kp EQUAL  &kp FSLH  &kp RETURN  &lt 5 ESCAPE  &lt 4 SPACE  &kp TAB  &lt 2 BACKSPACE  &lt 3 R  &lt 1 DELETE
             >;
 
             label = "base";
@@ -76,7 +76,7 @@
 
         media {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_STOP  &kp C_PP  &kp C_MUTE
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_STOP  &kp C_PP  &kp C_MUTE
             >;
 
             label = "media";
@@ -89,6 +89,13 @@
             >;
 
             label = "mod";
+        };
+
+        edit {
+            label = "edit";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(A)  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
